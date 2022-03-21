@@ -134,27 +134,20 @@
             <groupId>quil</groupId>
             <artifactId>processing-core</artifactId>
             <version>3.5.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jogamp.gluegen</groupId>
-            <artifactId>gluegen-rt-main</artifactId>
-            <version>2.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl-all-main</artifactId>
-            <version>2.3.2</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.locationtech.jts/jts-core -->
         <dependency>
             <groupId>org.locationtech.jts</groupId>
             <artifactId>jts-core</artifactId>
-            <version>1.16.1</version>
+            <version>1.18.2</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.twak</groupId>
             <artifactId>campskeleton</artifactId>
             <version>0.0.1</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.gurobi/gurobi-jar -->
         <dependency>
